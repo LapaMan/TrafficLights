@@ -27,6 +27,9 @@
                                 <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Start"/>
+                                <connections>
+                                    <action selector="startButtomOresseed" destination="BYZ-38-t0r" eventType="touchUpInside" id="GOZ-25-M0X"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="KOv-j7-mpL">
                                 <rect key="frame" x="137.5" y="90" width="100" height="400"/>
@@ -59,10 +62,16 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xCy-le-DQy" secondAttribute="bottom" constant="50" id="lm9-Uo-GTq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLight" destination="z0Y-KV-40X" id="ONl-0l-LVV"/>
+                        <outlet property="redLight" destination="oT0-0j-6pc" id="4Rp-4f-xRH"/>
+                        <outlet property="startButtom" destination="xCy-le-DQy" id="CC1-ho-PiL"/>
+                        <outlet property="yellowLight" destination="bEA-Ku-7cp" id="tJf-aH-2Ug"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="-27"/>
+            <point key="canvasLocation" x="305" y="-72"/>
         </scene>
     </scenes>
     <resources>
